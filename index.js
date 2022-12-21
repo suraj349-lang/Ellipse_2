@@ -13,6 +13,10 @@ app.get('/', (req, res) => {
   })
 })
 
+app.get("/home",(req,res,next)=>{
+  res.send("Hello world")
+})
+
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 })
