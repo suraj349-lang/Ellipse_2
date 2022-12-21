@@ -9,7 +9,7 @@ app.get('/', (req, res) => {
           res.send("service currenty unavailable");
       }
 
-      res.send(html);
+      res.send("Hello world");
   })
 })
 
